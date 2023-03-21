@@ -1,0 +1,463 @@
+@font-face {
+  font-family: "MetricHPE Light";
+  font-style: normal;
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Light.eot");
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MetricHPE Regular";
+  font-style: normal;
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Regular.eot");
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MetricHPE Medium";
+  font-style: normal;
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Medium.eot");
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MetricHPE Black";
+  font-style: normal;
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Black.eot");
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MetricHPE Bold";
+  font-style: normal;
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Bold.eot");
+  src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Bold.woff") format("woff");
+}
+
+
+body {
+  font-family: "MetricHPE Regular", Arial, sans-serif;
+  color: #000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.metric-regular {
+  font-family: "MetricHPE Regular";
+}
+
+.metric-bold {
+  font-family: "MetricHPE Bold";
+}
+
+.metric-black {
+  font-family: "MetricHPE Black";
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grey-background-color {
+  background-color: #f8f8f8;
+}
+
+.banner-text-1 {
+  letter-spacing: -1px;
+}
+
+.banner-text-2 {
+  letter-spacing: -1px;
+  font-weight: bold;  
+}
+
+.banner-text-4 {
+  letter-spacing: 0px;
+  line-height: 29px;
+}
+
+.place-background {
+  background-image: url('https://s3.amazonaws.com/ss-usa/companies/MzawMLE0N7IwBgA/uploads/HPE/Aquanta/HPE_Gradient_Purple_Blue_RGB.png');
+  background-size: cover;
+}
+
+
+.form-text {
+  letter-spacing: 1px;
+  background: url('https://s3.amazonaws.com/ss-usa/companies/MzawMLE0N7IwBgA/uploads/HPE/Aquanta/gradient-blue.png');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+}
+
+.banner-text-3 {
+  background: url('https://s3.amazonaws.com/ss-usa/companies/MzawMLE0N7IwBgA/uploads/HPE/Aquanta/MASKED_IMAGE__2_.png');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  line-height: 71px;
+  font-weight: bold;  
+}
+
+.invite-text {
+  color: #fff;
+}
+
+.footer-icon {
+  text-align: right;
+}
+
+.button {
+  letter-spacing: 1px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px 50px;
+  border: none;
+  background-color: #86eba3;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #01a982;
+}
+
+.button:active {
+  color: #fff;
+  background-color: #01a982;   
+}
+
+.button2 {
+  letter-spacing: 0px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px 30px;
+  border: none;
+  background-color: #86eba3;
+}
+
+.button2:hover {
+  color: #fff;
+  background-color: #01a982;
+}
+
+.button2:active {
+  color: #fff;
+  background-color: #01a982;   
+}
+
+.footer-text {
+  color: #929292;
+}
+
+.modal-title {
+  line-height: 25px;
+  text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .banner-text-1 {
+    font-size: 32px;
+  }
+
+  .banner-text-2 {
+    font-size: 36px;
+  }
+
+  .banner-text-3 {
+    font-size: 50px;
+  }
+
+  .banner-text-4 {
+    font-size: 26px;
+  }
+
+  .banner-text-5 {
+    letter-spacing: 0px;
+    line-height: 45px;  
+  }
+
+  .banner-text-5 {
+    font-size: 40px;
+  }
+
+  .form-text {
+    font-size: 58px;    
+    line-height: 61px;
+  }
+
+  .img-text {
+    line-height: 46px;
+    font-size: 37px;
+  }
+  .invite-text {
+    font-size: 40px;
+    line-height: 41px;
+    letter-spacing: 1px;
+  }
+
+  .pre-footer-text {
+    font-size: 45px;
+    letter-spacing: 0px;
+    line-height: 51px;
+  }
+
+  .pre-footer-text2 {
+    font-size: 38px;
+    letter-spacing: 0px;
+    line-height: 40px;
+  }
+
+  .footer-text {
+    font-size: 23px;
+    line-height: 25px;  
+  }
+  
+  .modal-title {
+    font-size: 25px;
+  }
+
+  .button {
+    font-size: 30px;
+  }
+
+  .button2 {
+    font-size: 25px;
+  }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .banner-text-1 {
+    font-size: 32px;
+  }
+
+  .banner-text-2 {
+    font-size: 36px;
+  }
+
+  .banner-text-3 {
+    font-size: 50px;
+  }
+
+  .banner-text-4 {
+    font-size: 26px;
+  }
+  .banner-text-5 {
+    font-size: 40px;
+  }
+
+  .form-text {
+    font-size: 58px;    
+    line-height: 61px;
+  }
+
+  .img-text {
+    font-size: 37px;
+  }
+
+  .invite-text {
+    font-size: 63px;
+    letter-spacing: 1px;
+    line-height: 58px;
+  }
+
+  .pre-footer-text {
+    font-size: 45px;
+    letter-spacing: 0px;
+    line-height: 51px;
+  }
+
+  .pre-footer-text2 {
+    font-size: 38px;
+    letter-spacing: 0px;
+    line-height: 40px;
+  }
+  .footer-icon {
+    width: 40px ;
+  }
+
+  .footer-text {
+    font-size: 23px;
+    line-height: 25px;  
+  }
+
+  .modal-title {
+    font-size: 25px;
+  }
+
+  .button {
+    font-size: 30px;
+  }
+
+  .button2 {
+    font-size: 25px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .banner-text-1 {
+    font-size: 32px;
+  }
+
+  .banner-text-2 {
+    font-size: 36px;
+  }
+
+  .banner-text-3 {
+    font-size: 70px;
+  }
+
+  .banner-text-4 {
+    font-size: 26px;
+  }
+
+  .banner-text-5 {
+    font-size: 40px;
+  }
+  
+  .form-text {
+    line-height: 61px;
+    font-size: 58px;    
+  }
+
+  .img-text {
+    font-size: 37px;
+  }
+
+  .invite-text {
+    font-size: 63px;
+    letter-spacing: 1px;
+    line-height: 58px;
+  }
+
+  .pre-footer-text {
+    font-size: 58px;
+    letter-spacing: 0px;
+    line-height: 71px;
+  }
+
+  .pre-footer-text2 {
+    font-size: 46px;
+    letter-spacing: 0px;
+    line-height: 71px;
+  }
+
+  .footer-text {
+    font-size: 23px;
+    line-height: 25px;  
+  }
+
+  .modal-title {
+    font-size: 25px;
+  }
+
+  .button {
+    font-size: 35px;
+  }
+
+  .button2 {
+    font-size: 25px;
+  }
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .banner-text-1 {
+    font-size: 25px;
+  }
+  .banner-text-2 {
+    font-size: 29px;
+  }
+
+  .banner-text-3 {
+    font-size: 50px;
+  }
+
+  .banner-text-4 {
+    font-size: 22px;
+  }
+
+  .banner-text-5 {
+    font-size: 33px;
+  }
+
+  .form-text {
+    line-height: 41px;
+    font-size: 40px;    
+  }
+
+  .img-text {
+    font-size: 25px;
+  }
+
+  .invite-text {
+    font-size: 40px;
+    line-height: 41px;
+    letter-spacing: 1px;
+  }
+
+  .pre-footer-text {
+    font-size: 45px;
+    letter-spacing: 0px;
+    line-height: 51px;
+  }
+  
+  .pre-footer-text2 {
+    font-size: 38px;
+    letter-spacing: 0px;
+    line-height: 40px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+    line-height: 18px;  
+  }
+
+  .modal-title {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+  .button2 {
+    font-size: 18px;
+  }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .mobile-center {
+    text-align: center;
+  }
+
+  .footer-icon {
+    width: 30px ;
+  }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
